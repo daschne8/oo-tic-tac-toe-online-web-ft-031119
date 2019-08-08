@@ -15,4 +15,8 @@ class TicTacToe
     @board = 9.times.collect{|n| ""}
   end
 
+  def display_board
+    puts @board
+  end
+
 end
