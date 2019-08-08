@@ -16,9 +16,9 @@ class TicTacToe
   end
 
   def display_board
-    puts @board[0,2].join(" | ")
-    puts @board[3,5].join(" | ")
-    puts @board[5,8].join(" | ")
+    puts @board[0,3].join(" | ")
+    puts @board[3,3].join(" | ")
+    puts @board[6,3].join(" | ")
   end
 
 end
