@@ -12,7 +12,7 @@ class TicTacToe
   ]
 
   def initialize
-    @board = 9.times.collect{|n| ""}
+    @board = 9.times.collect{|n| " "}
   end
 
   def display_board
